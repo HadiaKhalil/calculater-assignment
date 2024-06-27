@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="calculater">
+<input type="text" placeholder="0" id="a">
+<div>
+    <button class="symbols" onclick="pop()">AC</button>
+    <button class="symbols" value="C" name="" id="" onclick="del()">DEL</button>
+    <button class="symbols" onclick="cal('%')">%</button>
+    <button class="symbols" onclick="cal('/')">/</button>
+</div>
+<div>
+    <button onclick="cal(7)">7</button>
+    <button onclick="cal(8)">8</button>
+    <button onclick="cal(9)">9</button>
+    <button class="symbols" onclick="cal('*')">*</button>
+</div>
+<div>
+    <button onclick="cal(4)">4</button>
+    <button onclick="cal(4)">5</button> 
+    <button onclick="cal(6)">6</button>
+    <button class="symbols" onclick="cal('-')">-</button>
+</div>
+<div>
+    <button onclick="cal(1)">1</button>
+    <button onclick="cal(2)">2</button>
+    <button onclick="cal(3)">3</button>
+    <button class="symbols" onclick="cal('+')">+</button>
+</div>
+<div>
+    <button onclick="cal('00')">00</button>
+    <button onclick="cal(0)">0</button>
+    <button class="symbols" onclick="cal('.')">.</button> 
+    <button class="equalbtn" onclick="solution()">=</button>
+</div>
+    </div>
+</body>
+</html>
